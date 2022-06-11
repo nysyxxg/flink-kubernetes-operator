@@ -1,0 +1,213 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2022-06-11T09:42:01+08:00
+
+Notes: 3
+Binaries: 2
+Archives: 0
+Standards: 182
+
+Apache Licensed: 0
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL2 docker-entrypoint.sh
+  AL2 Dockerfile
+  AL2 docs/assets/search-data.js
+  AL2 docs/assets/_custom.scss
+  AL2 docs/assets/_fonts.scss
+  AL2 docs/config.toml
+  AL2 docs/content/docs/concepts/architecture.md
+  AL2 docs/content/docs/concepts/overview.md
+  AL2 docs/content/docs/concepts/_index.md
+  AL2 docs/content/docs/custom-resource/job-management.md
+  AL2 docs/content/docs/custom-resource/overview.md
+  AL2 docs/content/docs/custom-resource/pod-template.md
+  AL2 docs/content/docs/custom-resource/reference.md
+  AL2 docs/content/docs/custom-resource/_index.md
+  AL2 docs/content/docs/development/guide.md
+  AL2 docs/content/docs/development/_index.md
+  AL2 docs/content/docs/operations/helm.md
+  AL2 docs/content/docs/operations/ingress.md
+  AL2 docs/content/docs/operations/metrics-logging.md
+  AL2 docs/content/docs/operations/rbac.md
+  AL2 docs/content/docs/operations/_index.md
+  AL2 docs/content/docs/try-flink-kubernetes-operator/quick-start.md
+  AL2 docs/content/docs/try-flink-kubernetes-operator/_index.md
+  AL2 docs/content/versions.md
+  AL2 docs/content/_index.md
+  AL2 docs/layouts/partials/docs/footer.html
+  AL2 docs/layouts/partials/docs/inject/content-before.html
+  AL2 docs/layouts/partials/docs/inject/head.html
+  AL2 docs/layouts/partials/docs/inject/menu-after.html
+  AL2 docs/layouts/partials/docs/inject/menu-before.html
+  AL2 docs/layouts/partials/docs/interpolate.html
+  AL2 docs/layouts/partials/docs/menu-filetree.html
+  AL2 docs/layouts/partials/docs/menu.html
+  AL2 docs/layouts/partials/docs/simple-title.html
+  AL2 docs/layouts/partials/docs/title.html
+  AL2 docs/layouts/partials/docs/toc.html
+  AL2 docs/layouts/shortcodes/all_versions.html
+  AL2 docs/layouts/shortcodes/artifact.html
+  AL2 docs/layouts/shortcodes/beta.html
+  AL2 docs/layouts/shortcodes/center.html
+  AL2 docs/layouts/shortcodes/gh_link.html
+  AL2 docs/layouts/shortcodes/github_repo.html
+  AL2 docs/layouts/shortcodes/img.html
+  AL2 docs/layouts/shortcodes/javadoc.html
+  AL2 docs/layouts/shortcodes/label.html
+  AL2 docs/layouts/shortcodes/query_state_warning.html
+  AL2 docs/layouts/shortcodes/scala_version.html
+  AL2 docs/layouts/shortcodes/selectable.html
+  AL2 docs/layouts/shortcodes/stable.html
+  AL2 docs/layouts/shortcodes/tab.html
+  AL2 docs/layouts/shortcodes/tabs.html
+  AL2 docs/layouts/shortcodes/top.html
+  AL2 docs/layouts/shortcodes/unstable.html
+  AL2 docs/layouts/shortcodes/version.html
+  AL2 docs/layouts/_default/baseof.html
+  B     docs/static/favicon.png
+  AL2 docs/static/flink-header-logo.svg
+  AL2 docs/static/img/concepts/architecture.svg
+  AL2 docs/static/img/concepts/control_loop.svg
+  AL2 docs/static/img/concepts/JM_deployment_state_machine.svg
+  AL2 docs/static/img/operations/rbac.svg
+  AL2 docs/static/img/overview.svg
+  AL2 docs/static/js/flink.js
+  B     docs/static/navbar-brand-logo.jpg
+  AL2 docs/template/crd-ref.template
+  AL2 e2e-tests/data/cr.yaml
+  AL2 e2e-tests/test_kubernetes_application_ha.sh
+  AL2 e2e-tests/test_last_state_upgrade.sh
+  AL2 e2e-tests/utils.sh
+  AL2 examples/advanced-ingress.yaml
+  AL2 examples/basic-checkpoint-ha.yaml
+  AL2 examples/basic-ingress.yaml
+  AL2 examples/basic-session.yaml
+  AL2 examples/basic.yaml
+  AL2 examples/custom-logging.yaml
+  AL2 examples/pod-template.yaml
+  AL2 flink-kubernetes-operator/pom.xml
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/config/DefaultConfig.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/config/FlinkOperatorConfiguration.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/config/Mode.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/config/OperatorConfigOptions.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/controller/FlinkControllerConfig.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/controller/FlinkDeploymentController.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/FlinkDeployment.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/FlinkDeploymentList.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/FlinkDeploymentSpec.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/FlinkVersion.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/IngressSpec.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/JobManagerSpec.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/JobSpec.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/JobState.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/Resource.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/TaskManagerSpec.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/spec/UpgradeMode.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/status/FlinkDeploymentStatus.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/status/JobStatus.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/status/ReconciliationStatus.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/status/Savepoint.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/crd/status/SavepointInfo.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/docs/CrdReferenceDoclet.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/exception/DeploymentFailedException.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/exception/ReconciliationException.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/FlinkOperator.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/metrics/KubernetesOperatorMetricGroup.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/metrics/KubernetesOperatorMetricOptions.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/metrics/KubernetesOperatorScopeFormat.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/metrics/OperatorMetricUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/BaseObserver.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/JobManagerDeploymentStatus.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/JobObserver.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/Observer.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/ObserverFactory.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/SavepointFetchResult.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/observer/SessionObserver.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/reconciler/BaseReconciler.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/reconciler/JobReconciler.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/reconciler/Reconciler.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/reconciler/ReconcilerFactory.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/reconciler/ReconciliationUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/reconciler/SessionReconciler.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/service/FlinkService.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/utils/EnvUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/utils/FlinkConfigBuilder.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/utils/FlinkUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/utils/IngressUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/utils/OperatorUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/utils/SavepointUtils.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/validation/DefaultDeploymentValidator.java
+  AL2 flink-kubernetes-operator/src/main/java/org/apache/flink/kubernetes/operator/validation/FlinkDeploymentValidator.java
+  AL2 flink-kubernetes-operator/src/main/resources/log4j2.properties
+  N     flink-kubernetes-operator/src/main/resources/META-INF/NOTICE
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/controller/FlinkDeploymentControllerTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/FlinkOperatorITCase.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/FlinkOperatorTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/metrics/KubernetesOperatorMetricGroupTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/observer/JobObserverTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/observer/SessionObserverTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/reconciler/JobReconcilerTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/service/FlinkServiceTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/TestingClusterClient.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/TestingFlinkService.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/TestUtils.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/utils/FlinkConfigBuilderTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/utils/FlinkUtilsTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/utils/IngressUtilsTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/utils/ReconciliationUtilsTest.java
+  AL2 flink-kubernetes-operator/src/test/java/org/apache/flink/kubernetes/operator/validation/DeploymentValidatorTest.java
+  AL2 flink-kubernetes-shaded/pom.xml
+  AL2 flink-kubernetes-webhook/pom.xml
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/AdmissionController.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/AdmissionControllerException.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/AdmissionUtils.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/clone/Cloner.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/clone/ObjectMapperCloner.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/mutation/DefaultRequestMutator.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/mutation/Mutator.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/NotAllowedException.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/Operation.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/RequestHandler.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/validation/DefaultRequestValidator.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/admissioncontroller/validation/Validator.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/AdmissionHandler.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/FlinkOperatorWebhook.java
+  AL2 flink-kubernetes-webhook/src/main/java/org/apache/flink/kubernetes/operator/admission/FlinkValidator.java
+  AL2 flink-kubernetes-webhook/src/main/resources/log4j2.properties
+  AL2 flink-kubernetes-webhook/src/test/java/org/apache/flink/kubernetes/operator/admission/AdmissionHandlerTest.java
+  AL2 helm/flink-kubernetes-operator/Chart.yaml
+  AL2 helm/flink-kubernetes-operator/conf/flink-default-config/flink-conf.yaml
+  AL2 helm/flink-kubernetes-operator/conf/flink-default-config/log4j-console.properties
+  AL2 helm/flink-kubernetes-operator/conf/flink-operator-config/flink-conf.yaml
+  AL2 helm/flink-kubernetes-operator/conf/flink-operator-config/log4j2.properties
+  AL2 helm/flink-kubernetes-operator/templates/flink-operator.yaml
+  AL2 helm/flink-kubernetes-operator/templates/rbac.yaml
+  AL2 helm/flink-kubernetes-operator/templates/serviceaccount.yaml
+  AL2 helm/flink-kubernetes-operator/templates/webhook.yaml
+  AL2 helm/flink-kubernetes-operator/templates/_helpers.tpl
+  AL2 helm/flink-kubernetes-operator/values.yaml
+  N     LICENSE
+  N     NOTICE
+  AL2 pom.xml
+  AL2 tools/maven/checkstyle.xml
+  AL2 tools/maven/suppressions.xml
+  AL2 tools/releasing/apache_header.yaml
+  AL2 tools/releasing/create_release_branch.sh
+  AL2 tools/releasing/create_source_release.sh
+  AL2 tools/releasing/deploy_staging_jars.sh
+  AL2 tools/releasing/update_branch_version.sh
+ 
+*****************************************************
