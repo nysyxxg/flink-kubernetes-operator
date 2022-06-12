@@ -10,4 +10,6 @@ kubectl get pods -n flink-operator
 kubectl logs {pod-name} -n flink-operator
 
 
-kubectl create -f  flink-operator-custom-resource.yaml
+kubectl create -f  flink-operator-custom-resource.yaml   -n flink-operator
+
+kubectl delete -f  flink-operator-custom-resource.yaml   -n flink-operator
