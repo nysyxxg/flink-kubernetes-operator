@@ -1,0 +1,13 @@
+kind: ConfigMap
+apiVersion: v1
+metadata:
+  name: flink-operator-config
+  namespace: flink-operator
+data:
+  # this will need to be templatized
+  config: |-
+    operator:
+    # 替换{ingress_suffix}为你的集群ingress url，如不设置则无ingress
+      ingressUrlFormat: "{{$jobCluster}}.{ingress_suffix}"
+    logger:
+      level: 4
